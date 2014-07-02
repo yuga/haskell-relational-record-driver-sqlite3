@@ -1,4 +1,4 @@
-name:                relational-SQLite3
+name:                relational-sqlite3
 version:             0.0.1.0
 synopsis:            SQL Server driver for haskell-relational-record
 description:         This package contiains a diriver of haskell-relational-record
@@ -48,7 +48,7 @@ test-Suite sqlite3
                        , HDBC-sqlite3
                        , names-th
                        , relational-query-HDBC
-                       , relational-SQLite3
+                       , relational-sqlite3
                        , template-haskell
                        , time
   other-modules:         SQLite3TestDataSource
